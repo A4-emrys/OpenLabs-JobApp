@@ -1,0 +1,230 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  padding: 50px;
+} */
+
+
+/* .bd {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 0rem;
+  width: 38rem;
+  margin-left: 21rem;
+  margin-right: 21rem;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  border: solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.header > button{
+  padding: 10px;
+  width: 80px;
+  background-color: rgb(235, 31, 72);
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.3s all;
+  margin-left: 5rem;
+}
+
+.header > button:hover{
+  background-color: rgb(184, 14, 48);;
+}
+
+.tasks{
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(245, 195, 195);
+  border-radius: 15px;
+  padding-top: 10px;
+  
+
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 0px;
+  height: 60px;
+}
+
+.task > button{
+  border: none;
+  background-color: transparent;
+  color: darkred;
+  font-weight: bolder;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.task.reminder{
+  border-radius: 2px solid darkgreen;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.task {
+    border-radius: 10px;
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task.reminder {
+    border-left: 5px solid green;
+}
+
+.task h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-form {
+    margin-bottom: 40px;
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+}
+
+.form-control-check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-control-check label {
+    flex: 1;
+}
+
+.form-control-check input {
+    flex: 2;
+    height: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.bd {
+  margin-top: 16px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 0rem;
+  width: 38rem;
+  margin-left: 21rem;
+  padding-bottom: 10px;
+}
+
+
+.task > button{
+  border: none;
+  background-color: transparent;
+  color: darkred;
+  font-weight: bolder;
+  font-size: 1rem;
+  transition: 0.3s;
+}
